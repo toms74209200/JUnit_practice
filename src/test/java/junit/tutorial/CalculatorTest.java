@@ -16,7 +16,7 @@ public class CalculatorTest {
     @Test
     public void testMultiplySuccessAs5and7() {
         Calculator calculator = new Calculator();
-        int expected = 12;
+        int expected = 35;
         int actual = calculator.multiply(5, 7);
         assertThat(actual).isEqualTo(expected);
     }
