@@ -2,11 +2,14 @@ package junit.tutorial;
 
 import org.junit.Test;
 
-import static org.junit.Assert.fail;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class CalculatorTest {
     @Test
-    public void test() {
-        fail("Not implemented yet");
+    public void testMultiplySuccess() {
+        Calculator calculator = new Calculator();
+        int expected = 12;
+        int actual = calculator.multiply(3, 4);
+        assertThat(actual).isEqualTo(expected);
     }
 }
