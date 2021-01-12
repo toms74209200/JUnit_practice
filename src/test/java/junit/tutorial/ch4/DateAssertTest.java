@@ -1,10 +1,10 @@
-package junit.tutorial.sec4;
+package junit.tutorial.ch4;
 
 import org.junit.Test;
 
 import java.util.Date;
 
-import static junit.tutorial.sec4.DateAssert.*;
+import static junit.tutorial.ch4.DateAssert.*;
 
 public class DateAssertTest {
 

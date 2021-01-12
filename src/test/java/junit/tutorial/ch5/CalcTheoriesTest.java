@@ -1,6 +1,5 @@
-package junit.tutorial.sec5;
+package junit.tutorial.ch5;
 
-import junit.tutorial.sec5.Calculator;
 import org.junit.experimental.theories.DataPoints;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;

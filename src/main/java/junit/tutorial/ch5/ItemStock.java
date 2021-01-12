@@ -1,4 +1,4 @@
-package junit.tutorial.sec5;
+package junit.tutorial.ch5;
 
 import java.util.HashMap;
 import java.util.Map;

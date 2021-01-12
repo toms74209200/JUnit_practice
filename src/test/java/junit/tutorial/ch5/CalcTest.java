@@ -1,4 +1,4 @@
-package junit.tutorial.sec5;
+package junit.tutorial.ch5;
 
 import org.junit.Test;
 

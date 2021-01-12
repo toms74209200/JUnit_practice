@@ -1,4 +1,4 @@
-package junit.tutorial.sec4;
+package junit.tutorial.ch4;
 
 import org.assertj.core.api.AbstractAssert;
 

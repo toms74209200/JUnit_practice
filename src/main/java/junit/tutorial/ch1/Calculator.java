@@ -1,4 +1,4 @@
-package junit.tutorial.sec1;
+package junit.tutorial.ch1;
 
 public class Calculator {
 
