@@ -17,3 +17,10 @@ dependencies {
     testCompile group: 'org.assertj', name: 'assertj-core', version: '3.18.1'
 
 }
+
+task categorizedTest(type: Test) {
+    useJUnit {
+        includeCategories 'junit.tutorial.ch10.FastTests'
+        excludeCategories 'junit.tutorial.ch10.SlowTests'
+    }
+}
